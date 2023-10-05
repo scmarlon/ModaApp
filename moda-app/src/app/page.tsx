@@ -8,7 +8,6 @@ function Home() {
   const router = useRouter();
 
   const redi = async () => {
-    console.log("Entro acá");
     router.push("/new");
   };
 
